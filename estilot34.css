@@ -1,0 +1,19 @@
+table, th, td {
+    border: 2px solid black;
+border-collapse: collapse;
+width: 50%;
+padding: 5px;
+text-align: center;
+background-color: #ffdd90;
+}
+html,body,head {
+background-color: #ffdd90;
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Char_T-34.jpg/1280px-Char_T-34.jpg");
+color: black;
+background: width:100%;
+font-family: Comic Sans MS;
+
+}
+a {
+  color: black;
+}
