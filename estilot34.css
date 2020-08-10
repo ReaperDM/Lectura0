@@ -6,14 +6,86 @@ padding: 5px;
 text-align: center;
 background-color: #ffdd90;
 }
-html,body,head {
+body {
 background-color: #ffdd90;
 background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Char_T-34.jpg/1280px-Char_T-34.jpg");
-color: black;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+
 background: width:100%;
 font-family: Comic Sans MS;
 
 }
+
+.noprincipal{
+
+background-color: #a9b7ba;
+background-image: none;
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:499px) { body{
+  .display: flex;
+  flex-wrap: wrap;
+  background-image: none;
+
+
+
+}
+
+}
+
+
+::selection{
+background-color: yellow;
+color: black;
+
+
+}
 a {
-  color: black;
+  color: #c21313;
+}
+.explicaciones {
+text-shadow: 1px 1px #050505;
+text-align: center;
+font-size: 120%;
+color: #00d0ff
+
+
+}
+.explicaciones1{
+  text-shadow: 2px 2px #00d0ff;
+  text-align: center;
+  font-size: 120%;
+  color: #050505;
+
+
+}
+
+#bottom {
+
+
+
+
+
+  color: #c21313;
+}
+#Titulo{
+  color: #050505;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: solid black;
+}
+#fotofondo{
+  text-align: right;
+  padding: 5px;
+  font-size: 120%
 }
